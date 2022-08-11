@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using System.Collections.Generic;
 
 namespace NewCalculator
 {
@@ -34,10 +36,12 @@ namespace NewCalculator
             return result;
         }
     }
-    class Program
+
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            
             bool endApp = false;
             // Display title as the C# console calculator app.
             Console.WriteLine("Console Calculator in C#\r");
