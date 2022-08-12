@@ -1,3 +1,3 @@
 # anko-internship
 ![Build Status](https://github.com/Maldjorn/anko-internship/actions/workflows/dotnet.yml/badge.svg?branch=main)
-https://codecov.io/gh/Maldjorn/anko-internship/settings/badges
+![codecov/ConsoleCalculator(имяпроекта)/branch/main/graph/badge.svg)](https://codecov.io/gh/maldjorn/NewCalculator/branch/main)
