@@ -19,9 +19,9 @@ jobs:
         dotnet-version: 3.1
     - name: Restore dependencies
       run: dotnet restore
-    - name: Codecov upload 
-      uses: codecov/codecov-action@v2
     - name: Build
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test NewCalculator.sln --configuration Debug --no-build --verbosity normal --collect:"XPlat Code Coverage" --results-directory ./coverage
+    - name: Codecov upload 
+      uses: codecov/codecov-action@v2
